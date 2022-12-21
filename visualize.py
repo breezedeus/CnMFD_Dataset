@@ -98,7 +98,7 @@ def main():
         '-o',
         '--output-fp',
         type=str,
-        default='output-vis.jpg',
+        default='output-vis7.jpg',
         help='the file path of the output image after labelling math formulas',
     )
     args = parser.parse_args()
