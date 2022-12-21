@@ -36,7 +36,12 @@
 
 几个效果示例图片：
 
-**TODO**
+<div align="center">
+  <img src="output-vis4.jpg" alt="中文MFD效果" width="700px"/>
+</div>  
+<div align="center">
+  <img src="output-vis7.jpg" alt="中文MFD效果" width="700px"/>
+</div>
 
 
 
