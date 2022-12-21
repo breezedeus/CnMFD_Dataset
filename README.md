@@ -22,7 +22,7 @@
 
 
 
-本项目中提供了 [CnMFD_Dataset样例数据](./examples/CnMFD_Dataset)，完整数据集下载地址为：
+本项目中提供了 [CnMFD_Dataset样例数据](./examples/CnMFD_Dataset)，完整数据集大小为 **3.5G**，下载地址为 [CnMFD_Dataset @ Kaggle](https://www.kaggle.com/datasets/breezedeus/cnmfd-dataset) 。
 
 
 
