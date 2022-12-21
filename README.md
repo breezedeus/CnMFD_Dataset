@@ -155,6 +155,15 @@ CnMFD_Dataset 中使用的文字来自公开的Wiki数据，数学公式抽取�
 }
 ```
 
+## 给作者来杯咖啡
+
+开源不易，如果此项目对您有帮助，可以考虑 [给作者来杯咖啡 ☕️](https://cnocr.readthedocs.io/zh/latest/buymeacoffee/) 。
+
+---
+
+官方代码库：[https://github.com/breezedeus/CnMFD_Dataset](https://github.com/breezedeus/CnMFD_Dataset)。
+
+
 
 
 [cc-by]: http://creativecommons.org/licenses/by/4.0/
