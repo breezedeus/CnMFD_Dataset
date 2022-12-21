@@ -81,9 +81,30 @@ label文件中每行对应一个数学公式类别和所在位置，每列以空
 * `0`：行内公式，即 `embedding` formula；
 * `1`：独立行公式，即 `isolated` formula。
 
-而 `<xmin>`、`<xmax> `对应公式所在位置的最小和最大 `x` 值（已归一化），取值范围为 `[0, 1]`；类似地， `<ymin>`、`<ymax> ` 对应归一化后的最小和最大 `y` 值（已归一化）。
+而 `<xmin>`、`<xmax> `对应公式所在位置的最小和最大 `x` 值（已归一化：绝对值除以图片宽度），取值范围为 `[0, 1]`；类似地， `<ymin>`、`<ymax> ` 对应归一化后的最小和最大 `y` 值（已归一化：绝对值除以图片高度）。
 
 
 
 ## 可视化工具
+
+
+
+## 致谢与引用
+
+CnMFD_Dataset 中使用的数学公式抽取自 [IBEM Mathematical Formula Detection Dataset](https://zenodo.org/record/4757865) ，感谢作者们。
+
+
+
+本数据集亦遵循开源协议 [Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/) 。使用 **CnMFD_Dataset** 请引用：
+
+```tex
+ @misc{breezedeus_2022,
+	title={CnMFD_Dataset},
+	url={https://www.kaggle.com/dsv/4752383},
+	DOI={10.34740/KAGGLE/DSV/4752383},
+	publisher={Kaggle},
+	author={breezedeus},
+	year={2022}
+}
+```
 
