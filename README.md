@@ -30,7 +30,7 @@
 
 
 
-本项目中提供了 [CnMFD_Dataset样例数据](./examples/CnMFD_Dataset)，完整数据集大小为 **3.5G**，下载地址为 [CnMFD_Dataset @ Kaggle](https://www.kaggle.com/datasets/breezedeus/cnmfd-dataset) 。
+本项目中提供了 [CnMFD_Dataset样例数据](./examples/CnMFD_Dataset)，完整数据集大小为 **3.6G**，下载地址为 [CnMFD_Dataset @ Kaggle](https://www.kaggle.com/datasets/breezedeus/cnmfd-dataset) 。
 
 
 
@@ -99,11 +99,11 @@ label文件中每行对应一个数学公式类别和所在位置，每列以空
 
 ## 致谢与引用
 
-CnMFD_Dataset 中使用的数学公式抽取自 [IBEM Mathematical Formula Detection Dataset](https://zenodo.org/record/4757865) ，感谢作者们。
+CnMFD_Dataset 中使用的文字来自公开的Wiki数据，数学公式抽取自 [IBEM Mathematical Formula Detection Dataset](https://zenodo.org/record/4757865) ，感谢作者们。
 
 
 
-本数据集亦遵循开源协议 [Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/) 。
+本数据集遵循开源协议 [Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/) 。
 
 [![CC BY 4.0][cc-by-image]][cc-by]
 
