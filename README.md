@@ -1,3 +1,11 @@
+<div align="center">
+
+[![CC BY 4.0][cc-by-shield]][cc-by]
+
+</div>
+
+
+
 # CnMFD_Dataset
 
 **CnMFD_Dataset** 是利用合成技术生成的包含数学公式的中文文档数据集，可用于训练数学公式检测模型。**CnMFD_Dataset** 包含了不同字体的总共 **17500** 页文档，其中各字体对应的文档页数如下：
@@ -95,7 +103,13 @@ CnMFD_Dataset 中使用的数学公式抽取自 [IBEM Mathematical Formula Detec
 
 
 
-本数据集亦遵循开源协议 [Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/) 。使用 **CnMFD_Dataset** 请引用：
+本数据集亦遵循开源协议 [Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/) 。
+
+[![CC BY 4.0][cc-by-image]][cc-by]
+
+
+
+使用 **CnMFD_Dataset** 请引用：
 
 ```tex
  @misc{breezedeus_2022,
@@ -107,4 +121,10 @@ CnMFD_Dataset 中使用的数学公式抽取自 [IBEM Mathematical Formula Detec
 	year={2022}
 }
 ```
+
+
+
+[cc-by]: http://creativecommons.org/licenses/by/4.0/
+[cc-by-image]: https://i.creativecommons.org/l/by/4.0/88x31.png
+[cc-by-shield]: https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg
 
