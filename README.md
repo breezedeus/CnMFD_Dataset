@@ -100,6 +100,34 @@ label文件中每行对应一个数学公式类别和所在位置，每列以空
 
 ## 可视化工具
 
+可以使用提供的脚本 [visualize.py](visualize.py) 可视化效果。此脚本依赖Python 包 numpy, pillow, opencv。使用以下命令安装依赖包和运行脚本：
+
+```bash
+$ pip install numpy pillow opencv-python
+$ python visualize.py -i examples/CnMFD_Dataset/images/PingFang/syndoc-page4.jpg -l examples/CnMFD_Dataset/labels/PingFang/syndoc-page4.txt -o
+output-vis4.jpg
+```
+
+
+
+脚本 [visualize.py](visualize.py) 使用说明：
+
+```bash
+$ python visualize.py --help
+usage: visualize.py [-h] [-i IMAGE_FP] [-l LABEL_FP] [-o OUTPUT_FP]
+
+optional arguments:
+  -h, --help            show this help message and exit
+  -i IMAGE_FP, --image-fp IMAGE_FP
+                        the file path of one page image
+  -l LABEL_FP, --label-fp LABEL_FP
+                        the label file path corresponding to the page image
+  -o OUTPUT_FP, --output-fp OUTPUT_FP
+                        the file path of the output image after labelling math formulas
+```
+
+
+
 
 
 ## 致谢与引用
